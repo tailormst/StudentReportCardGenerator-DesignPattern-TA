@@ -8,11 +8,6 @@ public class PercentageGrading implements GradingStrategy {
         double total = 0;
         for (int m : marks.values()) total += m;
         double percent = total / marks.size();
-
-        if (percent >= 90) return "A+";
-        else if (percent >= 80) return "A";
-        else if (percent >= 70) return "B";
-        else if (percent >= 60) return "C";
-        else return "D";
+        return String.format("%.2f",percent);
     }
 }
