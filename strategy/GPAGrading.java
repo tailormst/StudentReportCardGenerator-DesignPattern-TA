@@ -8,7 +8,7 @@ public class GPAGrading implements GradingStrategy {
         double total = 0;
         for (int m : marks.values()) total += m;
         double avg = total / marks.size();
-        double gpa = (avg / 100) * 4.0;
+        double gpa = (avg / 100) * 10;
 
         return String.format("%.2f GPA", gpa);
     }

@@ -16,9 +16,9 @@ public class Main {
 
         Map<String, Integer> marks = new HashMap<>();
         System.out.println("Enter marks for 3 subjects:");
-        System.out.print("Math: "); marks.put("Math", sc.nextInt());
-        System.out.print("Science: "); marks.put("Science", sc.nextInt());
-        System.out.print("English: "); marks.put("English", sc.nextInt());
+        System.out.print("DP: "); marks.put("DP", sc.nextInt());
+        System.out.print("ML: "); marks.put("ML", sc.nextInt());
+        System.out.print("CN: "); marks.put("CN", sc.nextInt());
 
         System.out.println("\nSelect Grading Strategy:");
         System.out.println("1. Percentage\n2. GPA\n3. Relative");
